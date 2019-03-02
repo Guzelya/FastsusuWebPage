@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Home Page(after login)</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link href="./navbar.css" rel="stylesheet" type="text/css" >
+		<link href="./StartSusu.css" rel="stylesheet" type="text/css" > 
+		<!--<script type="text/javascript" src="./Testjs.js"></script> -->
+		<script type="text/javascript" src="js/startSusu.js"></script>
+
+	</head>
+
+	<body>
+
+		<div id="navigation"></div>
+        
+      
+         
+		 <div class="vertical-menu">
+		 	  <img src="face.jpeg"/>
+			  <!-- <a href="#" class="active">Home</a> -->
+			  <br /><br />
+			  <a href="#" style="margin-left: 100px;">Bio</a>
+			  <br /> <br />
+			  <a href="#">History of Payments</a>
+
+		</div> 
+
+
+		
+		<article> 
+
+			<form id="forms1">
+				<br />
+				Group Name <br />
+				<input type="text" name="groupName">
+				<br />
+				Number of Participants<br />
+				<input type="number" min="5" step="1" max="30" />
+                <br />
+
+				Pot Size<br />
+				<input type="number" min="100.00" step="10.00" max="3000.00"  />
+                <br />
+                <br />
+
+            </form>
+
+                <p id="demo1"></p>
+              
+                <button type="button" onclick="myFunction1()">Calculate: </button>
+               
+            <form id="forms2">    
+				<div>    
+				    
+				    Please select your donation frequency:
+				    <br />
+					<input type="radio"
+					 name="donation" value="biweekly" id="biweekly">biweekly<br />
+					<!-- <label for="donFreq1">biweekly</label> -->
+
+					<input type="radio"
+					 name="donation" value="monthly" id="monthly">monthly<br />
+					<!-- <label for="donFreq2">monthly</label> -->
+
+				</div>
+			</form>
+			
+			<button onclick="myFunction3()">Alert</button>
+	            <p id="demo3"></p>
+
+
+            <form id="forms3">
+
+					<label>Enter your starting date:</label>
+					<input type="date" value="09/29/2018">
+					
+			</form>
+
+	            <button onclick="myFunction2()">Calculate your end date</button>
+	            <p id="demo2"></p>
+	            <p id-"demo2a"></p>
+
+	            <!-- <p id="demo1"></p> -->
+                 Your money day:
+                 <br />
+                 Last payment date:
+                 <br />
+
+
+			<button type="button">START SUSU</button><br />
+			<button type="button">Save for later</button>
+
+		</article>
+     
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script1.js"></script>
+	<!--<script type="text/javascript" src="js/jquery.js"></script> -->
+	<!--<script type="text/javascript" src="./startSusu.js"></script> -->
+   
+	</body>
+</html>
+
+
+
+
+
+
